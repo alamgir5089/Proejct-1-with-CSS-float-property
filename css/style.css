@@ -1,0 +1,180 @@
+*{margin: 0;padding: 0;outline: 0;}
+body{
+ background:url(../img/Wallpaper2.jpg )repeat scroll 0 0 #fff;  
+}
+#wrapper{
+   width: 1000px;
+   margin: 0px auto;
+}
+
+
+#headsection{
+   background: #fff;
+   border-bottom: 2px solid#F8F8F8;
+   height: 80px;
+   padding:10px 20px ;
+   overflow: hidden;
+}
+#headsection h2{
+   font-family: Georgia;
+   margin-top: 10px;
+}
+#headsection p{
+   font-family: Georgia;
+}
+#social{
+    list-style-type: none;
+    padding: 20px;
+    position: absolute;
+    top: 5px;
+    right: 20%;
+    
+}
+#social li{
+    display: inline;
+}
+#social li img{
+    width: 50px;
+    height: 50px;  
+}
+
+
+
+#navsection{
+   background-color: #000;
+   
+
+}
+
+#navsection ul{
+   background-color: #000;  
+   list-style-type: none;
+   z-index: 999;
+}
+#navsection ul li{
+   float: left;
+   border-right: 1px solid#444444;
+}
+#navsection ul li:last-child {
+   border: none;
+
+}
+#navsection ul li a{
+   background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding:10px 14.43px;
+}
+#navsection ul li a:hover{
+   color: #444444;
+}
+#navsection ul li{
+   position: relative;
+}
+#navsection ul li ul{
+   position: absolute;
+   left:-99999px;
+}
+#navsection ul li:hover ul{
+left: 0px ;
+}
+#navsection ul li ul li{
+   float: none;
+   border-right: none;
+   border-bottom: 1px solid#444444;
+}
+#navsection ul li ul li:first-child{
+   border-top: 1px solid#444444;
+   width: 142.5px;
+}
+.slider-wrapper{
+    background:#000;
+}
+
+#socialfix {
+    list-style-type: none;
+    position: fixed;
+    top: 100px;
+    left: 0%;
+    background: #fff;
+    border-radius: 10px;
+    
+}
+#socialfix li{
+    float: none;
+}
+#socialfix li img{
+    width: 50px;
+    height: 50px; 
+} 
+
+#contentsection{
+  background: #fff; 
+  overflow: hidden; 
+}
+#maincontent{
+    float: left;
+    margin-left: 15px;
+    width: 607px;
+    margin-right: 8px;
+}
+#samepost{
+    
+}
+#samepost h2{
+    font-family: Georgia;
+    padding: 10px 0px;
+     
+}
+#samepost img{
+    float: left;
+    width: 155px;
+    height: 90px;
+    padding-right: 20px;
+}
+#samepost p{
+    font-family: Georgia;
+    font-size: 16px;
+    color: #242424;
+    line-height: 26px;
+    text-align: justify;
+}
+#sidebar{
+    overflow: hidden;
+    float: right;
+    width: 330px;
+    margin-top: 0px;
+    padding: 10px 20px;   
+}
+#samesidebar{
+    
+}
+#samesidebar h2{
+font-family: Georgia;   
+}
+
+#samesidebar img{
+float: left;
+width: 100px;
+height: 65px;
+padding: 10px;
+}
+#samesidebar p{
+font-family: Georgia;
+font-size: 16px;
+color: #242424;
+line-height: 26px;
+text-align: justify; 
+}
+#footsection{
+    background: #2F3847;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+}
